@@ -1,34 +1,5 @@
-# Node modules
-node_modules/
-
-# Environment files
 .env
-.venv/
-.myvenv/
-myvenv/
-# Python bytecodes
 __pycache__/
 *.pyc
 
-# Operating system files
-.DS_Store
-
-# IDE specific files
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Dependency directories
-venv/
-myvenv/
-
-# Build files
-/dist/
-
-# Lock files (optional, see note below)
-package-lock.json
-yarn.lock
-
-requirements.txt
+This refactored code integrates the new endpoint `/duffel-flights-list-offers` into the existing backend application. The endpoint is configured to handle POST requests and interact with the Duffel API using the provided API key. The code also includes necessary configurations for CORS and environment variable management. The application is set to run on port 5000.
